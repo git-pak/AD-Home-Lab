@@ -36,7 +36,8 @@ Key technologies implemented:
 
 # VM Deployment
 
-A new virtual machine was created using Hyper-V Manager.
+A new virtual machine was created using Hyper-V Manager.  
+![Hyper-V Create New VM](images/create-vm.png)
 
 Configuration:
 
