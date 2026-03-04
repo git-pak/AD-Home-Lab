@@ -37,7 +37,7 @@ Key technologies implemented:
 # VM Deployment
 
 A new virtual machine was created using Hyper-V Manager.  
-![Hyper-V Create New VM](images/create-vm.png)  
+![Hyper-V Create New VM](https://github.com/git-pak/AD-Home-Lab/blob/main/images/create-vm.png)  
 
 Configuration:
 
