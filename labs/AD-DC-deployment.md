@@ -1,6 +1,18 @@
 # Active Directory Domain Controller Deployment Lab
 Windows Server 2022 • Hyper-V • AD DS • DNS
+# Skills Demonstrated
 
+This lab demonstrates practical experience with:
+
+- Hyper-V virtual machine provisioning
+- Windows Server installation
+- Network troubleshooting (APIPA addressing)
+- IPv4 configuration
+- Active Directory Domain Services installation
+- Domain Controller promotion
+- DNS zone verification
+
+These tasks reflect common responsibilities in **Tier-1 / Tier-2 Help Desk and IT Support roles**.
 ---
 
 # Overview
@@ -149,21 +161,6 @@ Example login format: LAB\Administrator
 
 This confirms the server is now functioning as a **Domain Controller for the lab.local forest**.
 
----
-
-# Skills Demonstrated
-
-This lab demonstrates practical experience with:
-
-- Hyper-V virtual machine provisioning
-- Windows Server installation
-- Network troubleshooting (APIPA addressing)
-- IPv4 configuration
-- Active Directory Domain Services installation
-- Domain Controller promotion
-- DNS zone verification
-
-These tasks reflect common responsibilities in **Tier-1 / Tier-2 Help Desk and IT Support roles**.
 
 ---
 
