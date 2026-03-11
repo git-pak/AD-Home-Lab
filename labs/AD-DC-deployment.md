@@ -65,23 +65,6 @@ The server OS was installed using the **Desktop Experience** option to allow gra
 
 ---
 
-# Network Configuration
-
-After installation, the server initially received an **APIPA address (169.254.x.x)** indicating DHCP failure.
-
-See troubleshooting steps and documentation below:  
-[Hyper-V Network Connectivity Troublshooting Case Document](https://github.com/git-pak/home-it-troubleshooting/blob/main/cases/Hyper-V-VM-Network-Connectivity-Failure.md)  
-
-Connectivity was verified with:
-
-
-```
-ping 192.168.50.1
-```
-```
-ping 8.8.8.8
-```
-
 # Server Preparation
 
 Before installing Active Directory, the server was configured with:
@@ -93,7 +76,29 @@ Before installing Active Directory, the server was configured with:
 These steps follow best practices for domain controller deployment.
 
 ---
+# Network Configuration
 
+Network connectivity verification failed. The server initially received an **APIPA address (169.254.x.x)** indicating DHCP failure.
+
+See troubleshooting steps and documentation below:  
+[Hyper-V Network Connectivity Troublshooting Case Document](https://github.com/git-pak/home-it-troubleshooting/blob/main/cases/Hyper-V-VM-Network-Connectivity-Failure.md)  
+
+Since DHCP renewal continued to fail, a manual IP configuration was applied.
+
+Network settings configured:
+IP Address: 192.168.50.10 Subnet Mask: 255.255.255.0 Default Gateway: 192.168.50.1 Preferred DNS: 8.8.8.8
+
+This restored network connectivity.
+Connectivity was verified with:
+
+
+```
+ping 192.168.50.1
+```
+```
+ping 8.8.8.8
+```
+---
 # Active Directory Installation
 
 Active Directory Domain Services was installed using **Server Manager**:
