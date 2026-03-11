@@ -38,7 +38,7 @@ VM configuration:
 | Generation | Generation 2 |
 | Memory | 4096 MB |
 | Network | External Virtual Switch |
-| Disk | 60 GB |
+| Disk | 70 GB |
 | OS | Windows 11 |
 
 During installation a temporary local setup account was created.
