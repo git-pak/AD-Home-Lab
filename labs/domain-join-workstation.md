@@ -84,12 +84,13 @@ Example commands:
 
 ```
 ping dc01
+
 ```
 
 ```
 nslookup lab.local
 ```
-
+![Ping dc01](https://github.com/git-pak/AD-Home-Lab/blob/main/images/AD%20verified%20domain%20connectivity%20using%20ping.png)
 Successful responses confirm that DNS and network communication are functioning correctly.
 
 ---
