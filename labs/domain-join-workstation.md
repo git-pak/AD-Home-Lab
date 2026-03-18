@@ -20,7 +20,7 @@ Domain joining is a common responsibility for Help Desk and IT Support technicia
 | Domain | lab.local |
 | Domain Controller IP | 192.168.50.10 |
 | Client OS | Windows 11 |
-| Client Computer Name | USA-WKS-01 |
+| Client Computer Name | USA-PC-01 |
 
 ---
 
@@ -34,7 +34,7 @@ VM configuration:
 
 | Setting | Value |
 |---|---|
-| VM Name | USA-WKS-01 |
+| VM Name | USA-PC-01 |
 | Generation | Generation 2 |
 | Memory | 4096 MB |
 | Network | External Virtual Switch |
@@ -193,7 +193,7 @@ Computers
 The workstation appears as:
 
 ```
-USA-WKS-01
+USA-PC-01
 ```
 
 The computer object was then moved to the appropriate OU:
@@ -202,7 +202,7 @@ The computer object was then moved to the appropriate OU:
 lab.local
 └── USA
      └── Computers
-          └── USA-WKS-01
+          └── USA-PC-01
 ```
 
 ---
